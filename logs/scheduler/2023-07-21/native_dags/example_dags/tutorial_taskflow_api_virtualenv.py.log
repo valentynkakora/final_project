@@ -1,0 +1,11 @@
+[2023-07-21T13:29:42.796+0000] {processor.py:157} INFO - Started process (PID=61) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-07-21T13:29:42.797+0000] {processor.py:826} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2023-07-21T13:29:42.798+0000] {logging_mixin.py:150} INFO - [2023-07-21T13:29:42.798+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-07-21T13:29:42.839+0000] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_virtualenv']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-07-21T13:29:42.963+0000] {logging_mixin.py:150} INFO - [2023-07-21T13:29:42.963+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api_virtualenv
+[2023-07-21T13:29:42.982+0000] {logging_mixin.py:150} INFO - [2023-07-21T13:29:42.981+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api_virtualenv
+[2023-07-21T13:29:43.000+0000] {logging_mixin.py:150} INFO - [2023-07-21T13:29:43.000+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api_virtualenv
+[2023-07-21T13:29:43.014+0000] {logging_mixin.py:150} INFO - [2023-07-21T13:29:43.013+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-07-21T13:29:43.025+0000] {logging_mixin.py:150} INFO - [2023-07-21T13:29:43.025+0000] {dag.py:2763} INFO - Creating ORM DAG for tutorial_taskflow_api_virtualenv
+[2023-07-21T13:29:43.035+0000] {logging_mixin.py:150} INFO - [2023-07-21T13:29:43.035+0000] {dag.py:3508} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2023-07-21T13:29:43.051+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.258 seconds
